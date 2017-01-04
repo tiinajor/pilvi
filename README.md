@@ -138,28 +138,28 @@ If this fails to install nvm you may need to run the command as sudo. If this fa
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
-After checking the current version, our next task is to list all the versions we can install and install the latest version. As of writing (November 2015) the latest version was v5.1.0. Finally we check that we are now using the latest version.
+After checking the current version, our next task is to list all the versions we can install and install the latest version. As of writing (January 2017) the latest version was v6.9.3. Finally we check that we are now using the latest version.
 ```
 node -v
-  v0.10.35
+  v4.6.1
 nvm list-remote
-nvm install 5.1.0
+nvm install 6.9.3
 node -v
-  v5.1.0
+  v6.9.3
 ```
 Try closing the current terminal window and opening another one. If you check the current version on Node you will see that it has reverted back to the previously installed one! This is because the old version is flagged as the _default_. To fix this we need to set our new version as default.
 ```
 node -v
-  v0.10.35
-nvm alias default 4.2.1
+  v4.6.1
+nvm alias default 6.9.3
 node -v
-  v4.2.1
+  v6.9.3
 ```
 To check that this has has the desired effect, close the current terminal window, open a new one and check the current node version.
 
 Node is based on the Chrome v8 runtime and supports any features supported by that runtime. Sometimes its helpful to know which runtime version is included in the NodeJS install. Thankfully this is straightforward to find out.
 ```
 node -p process.versions.v8
-  4.5.103.35
+  5.1.281.89
 ```
 
