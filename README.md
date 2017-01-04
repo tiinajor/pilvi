@@ -2,7 +2,7 @@
 
 Welcome to **full-stack Javascript development**. You are probably viewing this via **GitHub** so one of the first tasks we will be carrying out is showing you how to *clone* your own copy of the code and maintain it on *your own Git repository*.
 
-This course is a clouad programming course for 8 weeks. We start up with Javascript basics. Then we use Javascript in server side Node.js. Finally we will deploy our programs in Heroku.
+This course is a cloud programming course for 8 weeks. We start up with Javascript basics. Then we use Javascript in server side Node.js. Finally we will deploy our programs in Heroku.
 
 You will be shown how to use an online IDE called **Cloud 9**, however you are encouraged to make use of any other platforms and tools.
 
