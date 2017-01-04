@@ -91,7 +91,6 @@ You pull down any new files or changes from the GitHub repository and merge them
 $ git pull kurssi master
 ```
 
-```
 
 ## 1.5 Commiting Working Code
 
