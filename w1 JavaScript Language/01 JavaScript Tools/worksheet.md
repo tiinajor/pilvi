@@ -3,7 +3,7 @@
 
 ## 1 Editing and Testing JavaScript Code
 
-In the sidebar, locate the folder `labs/w1JavaScript Language/JavaScript Tools/` and open the file  `basic_math.html` . You can now make changes to the code. 
+In the sidebar, locate the folder `labs/w1 JavaScript Language/01 JavaScript Tools/` and open the file  `basic_math.html` . You can now make changes to the code. 
 To preview the page (and run your program) you need to view it in a new tab in your web browser. 
 At the top of the screen you should see a menu item called *Preview*.
 
