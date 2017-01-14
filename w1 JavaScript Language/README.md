@@ -7,5 +7,5 @@ The weekly worksheets have been carefully graded:
 
 1. the worksheet **01 JavaScript Tools** is considered *core knowledge* and needs to be understood if you are to pass the module.
 2. the worksheet **02 JavaScript Language** contains the intermediate skills and knowledge to boost your understanding and grade.
-3. the **03 ECMA6 - some work to come later on** worksheet introduces a number of new features that form the ECMA6 update. You should learn about these if you are to get the highest grade.
+3. **ECMA6**  You should learn about this if you are to get the highest grade.
 
