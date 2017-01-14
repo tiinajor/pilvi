@@ -54,7 +54,7 @@ Writing clean, readable, and error-free high-quality code is essential to mainta
 Therefore most languages now have automated syntax and style “checkers” called linters that code editors and IDEs can use to alert potential problems to programmers immediately, 
 when they are writing their code.
 
-ESLint is completely configurable through a configuration file .eslintrc which is located in the 06 Javascript Language directory. 
+ESLint is completely configurable through a configuration file .eslintrc which is located in the 02 Javascript Language directory. 
 By default any file or directory starting with the period (.) character is hidden. 
 To display hidden files and directories click on the gear icon at the top of the Documents Tree and choose Show Hidden Files.
 
