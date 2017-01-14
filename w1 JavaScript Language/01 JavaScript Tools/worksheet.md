@@ -81,6 +81,7 @@ and so should you! You should aim to have no ESLint warnings when you write your
 
 ### 3.2 Test your understanding
 Once you have corrected for any ESLint errors found by the code linter (`js/notes.js`), do the following.
+
 1. Locate all the ESLint errors and warnings and understand what they mean
 2. Correct the app to eliminate all the errors (make sure it still runs correctly!)
 3. Read up on the most common ESLint errors
