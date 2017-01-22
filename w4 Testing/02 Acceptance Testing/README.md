@@ -35,6 +35,4 @@ Acceptance testing will be carried out using the [frisby](https://www.npmjs.com/
 3. add the  `--autotest --watch .` flags when you run the test script (see the previous worksheet), this will automatically run your acceptance tests every time you save a file.
 3. implement `DELETE /lists`. The tests will pass to indicate success.
 
-## Presentation
 
-https://goo.gl/uSJxX8

@@ -138,6 +138,4 @@ If you think you have understood these basic _AngularJS_ concepts why not attemp
 - Only AngularJS allowed, no pure JavaScript or jQuery etc.
 - AngularJS filters are not allowed.
 
-## Presentation
 
-https://goo.gl/VXwvwq
