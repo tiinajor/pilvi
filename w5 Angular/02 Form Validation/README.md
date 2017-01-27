@@ -13,7 +13,7 @@ In this lab you do the following tasks:
 
 ## 1 HTML 5 form
 
-Read data bindign and validation section in http://www.w3schools.com/angular/angular_forms.asp.
+Read data binding and validation section in http://www.w3schools.com/angular/angular_forms.asp.
 
 Get yourself familiar with the examples of using AngularJS to define forms **01_form_intro.html**, **02_validation.html**, 
 **03_select.html** and **04_service.html**.
