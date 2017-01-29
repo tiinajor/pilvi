@@ -4,9 +4,9 @@ Before you start this or any other worksheet you should make sure you have the l
 ```
 git pull upstream master
 ```
-You should also make sure you are running the latest version of NodeJS. Instructions on how to check this and upgrade the installation are in topic 4.
+You should also make sure you are running the latest version of NodeJS. Instructions on how to check this and upgrade the installation are in **w3 NodeJS**.
 
-NodeJS is based on the latest Chrome V8 runtime and, as such, already supports many important ECMA6 features. In this worksheet you will be exploring several of these and seeing how they will help you write clearer, more robust code. If you get errors running these examples you should use _NVM_ to upgrade NodeJS, instructions can be found in the first worksheet in **topic 5**.
+NodeJS is based on the latest Chrome V8 runtime and, as such, already supports many important ECMA6 features. In this worksheet you will be exploring several of these and seeing how they will help you write clearer, more robust code. If you get errors running these examples you should use _NVM_ to upgrade NodeJS, instructions can be found in the first worksheet in **w3 NodeJS**.
 
 ## 1 Promises Revisited
 
