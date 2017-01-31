@@ -6,4 +6,3 @@
  
 ## 2.1 Form Validation
 
-## 2.1 Form Validation
