@@ -2,7 +2,7 @@
 
 Before you start this or any other worksheet you should make sure you have the latest commits from the upstream repository on **GitHub**.
 ```
-git pull upstream master
+$ git pull kurssi master
 ```
 You should also make sure you are running the latest version of NodeJS. Instructions on how to check this and upgrade the installation are in **w3 NodeJS**.
 
