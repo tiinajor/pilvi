@@ -2,7 +2,8 @@
 
 # 1 ExpressJS
 
-## 1.1 Introduction
+## 1.1 Routing
 
-## 2.1 What is needed
+## 2.1 A concise application with AngularJS - ExpressJS - NodeJS
+
 
