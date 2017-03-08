@@ -26,3 +26,9 @@ heroku	git@heroku.com:project-name.git (fetch)
 heroku	git@heroku.com:project-name.git (push)
 ```
 If you need to add the remote manually you can find the correct procedure by loading the [dashboard](https://dashboard.heroku.com/apps) page, selecting your app then choosing the **Deploy** tab.
+
+### Test your understanding
+
+1. Last week you coded a little REST API. Continue to work with your code, but create a new project in GitLab for it and a new workspace in Cloud 9.
+2. Implement a small client side to use your API.
+3. Deploy your code in Heroku.
