@@ -18,7 +18,7 @@ One of the most useful resources is the Mozilla JS Tutorial. You should read thi
 
 In this task you will write a simple function to detect and remove duplicates from a task list.
 
-1. Open the C9 project containing the lab code (see the previous lab) and open the file  simple_function.html  from  `/labs/07 JavaScript Language/`. 
+1. Open the C9 project containing the lab code (see the previous lab) and open the file  simple_function.html  from  `/w1 JavaScript Language/02 JavaScript Language/`. 
 2. Use the  *Preview*  button to test out what the page does.
 3. Open the associated JS file `js/tasks.js` and check you understand how it works.
 
