@@ -31,19 +31,19 @@ You can't put too much stuff in a bag, or too many bags in a cargo hold (this me
 The boilerplate code in `docker.js` file has console.log statements for informing illegal situations, you can use this code for designing Jasmine tests for your code.
 ```
 bag.add(stone);
-console.log("laukun paino, pitäisi olla 3: " + bag.weigth());
+console.log("laukun paino, pitäisi olla 3: " + bag.weight());
 bag.add(stone); // virhe: "Stuff lisätty jo, ei onnistu!"
 ```
 changes to 
 ```
 describe("A spec using beforeAll", function() {
-  var kivi, laukku; 
+  var stone, bag; 
   beforeAll(function() {
-    laukku = new Matkalaukku(10);
-    kivi = new Tavara("kivi", 3);
+    bag = new Bag(10);
+    stone = new Stuff("stone", 3);
   });
 it('laukun paino: pitäisi olla 3: ’, function(){
-    expect((laukku.lisaa(kivi)).paino()).toBe(3);
+    expect((bag.add(stone)).weight()).toBe(3);
   });
 ```
 
