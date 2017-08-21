@@ -1,7 +1,7 @@
 
 # JavaScript Language
 
-This week introduces the two key data types in JS: objects and functions. Get used to their basic syntax and common use cases. This is an alternative to README1.md exercises.
+This week introduces the two key data types in JS: objects and functions. Get used to their basic syntax and common use cases. This is an alternative to `alt1` exercises.
 
 ## Task List
 1. Make a simple calculator.
