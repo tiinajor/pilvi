@@ -1,7 +1,7 @@
 var notes = new Array();
 
 function addItem() {
-	textbox = document.getElementById('item');
+	textbox = document.getElementById('fruit');
 	var itemText = textbox.value;
 	textbox.value = '';
 	textbox.focus();
