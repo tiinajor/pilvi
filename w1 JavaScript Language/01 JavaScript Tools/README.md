@@ -3,7 +3,7 @@
 
 ## 1 Editing and Testing JavaScript Code
 
-In the sidebar, locate the folder `labs/w1 JavaScript Language/01 JavaScript Tools/` and open the file  `basic_math.html` . You can now make changes to the code. 
+In the sidebar, locate the folder `labs/w1 JavaScript Language/01 JavaScript Tools/` and open the file  `basic_math.html` (notice: even if this has the same name as you have been working with earlier, the file itself has been updated - so do NOT copy your previous solutions but figure out new ones!). You can now make changes to the code. 
 To preview the page (and run your program) you need to view it in a new tab in your web browser. 
 At the top of the screen you should see a menu item called *Preview*.
 
@@ -18,9 +18,9 @@ Read through comments in the JS file, and try to understand the code. You can no
 
 ### 1.1 Test Your Understanding
 
-1. the values read from the text boxes are stored as *strings*. Modify the code to store the quantity to an *integer* and the price, tax and discount as *floats* (hint, check the [crib sheet](http://www.cheatography.com/davechild/cheat-sheets/javascript/)).
-2. modify the JS code to double the discount applied when the quantity ordered is greater than 100 items
-3. modify the HTML form to include a *shipping* field, and include this value in the total calculation in `shopping.js`.
+1. Try to figute out calculations. What kind of corrections are needed to your code so calculations give the right answer?  (hint, check the [crib sheet](http://www.cheatography.com/davechild/cheat-sheets/javascript/)).
+2. modify the JS code to count the weight of fruit  - you wished to get only half of the amount you had in the beginning.
+3. modify the HTML form to include a *taxes* field (use 12%), and include this value in the total calculation in `shopping.js`.
 
 As you edit the file in C9 you have to save once in a while. To view the new version simply refresh the web browser tab running your web page.
 
