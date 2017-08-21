@@ -45,14 +45,14 @@ Enter some valid inputs into the form and submit it...
 
 ### 2.2 Test Your Understanding
 
-1. Load up `conditionals_booleans.html` and modify the HTML form to include a “Full Name” field
-2. Add validation in contact.js to ensure that the name entered has at least two parts separated by a space, and is between 3 and 100 characters in length
+1. Load up `conditionals_booleans.html` and modify the HTML form to include a “UserID" & "Password” fields 
+2. Add validation in contact.js to ensure that the UserID entered has at least  between 6 and 25 characters in length - and some of the characters are numbers.
+3. Add even validation for your Password-field (this time password can be fixed to "paSSw0rd")
 
 ## 3 ESLint Code Checking
 
 Writing clean, readable, and error-free high-quality code is essential to maintainability. 
-Therefore most languages now have automated syntax and style “checkers” called linters that code editors and IDEs can use to alert potential problems to programmers immediately, 
-when they are writing their code.
+Therefore most languages now have automated syntax and style “checkers” called linters that code editors and IDEs can use to alert potential problems to programmers immediately, when they are writing their code.
 
 ESLint is completely configurable through a configuration file .eslintrc which is located in the 02 Javascript Language directory. 
 By default any file or directory starting with the period (.) character is hidden. 
