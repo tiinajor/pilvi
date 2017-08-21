@@ -1,5 +1,5 @@
 // shopping.js
-// This script calculates an order total.
+// This script calculates total of your shoppings.
 
 // Function called when the form is submitted.
 // Function performs the calculation and returns false.
@@ -11,10 +11,8 @@ function calculate() {
     
     // Get references to the form values:
     var quantity = document.getElementById('quantity').value;
-    var price = document.getElementById('price').value;
-    var tax = document.getElementById('tax').value;
-    var discount = document.getElementById('discount').value;
-
+    var price = document.getElementById('price').value;    
+    
 	// Add validation here later!
 	
 	// Calculate the initial total:
@@ -29,10 +27,7 @@ function calculate() {
 	total = total * tax;
 	console.log("total after tax: " + total);
 		
-	// Factor in the discount:
-	total = total - discount;
-	console.log("total after discount: " + total);
-
+	
 	// Format the total to two decimal places:
 	total = total.toFixed(2);
 	
