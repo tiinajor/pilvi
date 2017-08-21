@@ -115,7 +115,7 @@ You should now see that the errors relating to these objects not being declared 
 
 ### 4.2 Test Your Understanding
 
-WIth strict mode enabled your program will throw errors which can be seen in the browser console.
+With strict mode enabled your program will throw errors which can be seen in the browser console.
 
 1. Identify any errors flagged up in the editor
 2. Attempt to fix these errors so your program runs.
