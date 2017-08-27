@@ -19,7 +19,7 @@ Read through comments in the JS file, and try to understand the code. You can no
 ### 1.1 Test Your Understanding
 
 1. Try to figure out calculations. What kind of corrections are needed to your code so calculations give the right answer?  (hint, check the [crib sheet](http://www.cheatography.com/davechild/cheat-sheets/javascript/)).
-2. modify the JS code to count the weight of fruit  - you wished to get only half of the amount you had in the beginning.
+2. modify the JS code to count the amount  - you wished to get only half of the amount you had in the beginning.(this is totally crazy - just testing you can edit a field when you push the button)
 3. modify the HTML form to include a *taxes* field (use different %-values), and include this value in the total calculation in `shopping.js`.
 
 As you edit the file in C9 you have to save once in a while. To view the new version simply refresh the web browser tab running your web page.
