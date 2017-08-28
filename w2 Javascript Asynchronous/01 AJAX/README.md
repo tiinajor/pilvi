@@ -28,8 +28,8 @@ The code you will look at below invokes handlers that check for methods and prop
 ### 1.1 Test your Understanding
 
 - Add a new div containing some text
-- Add a “mouseover” event listener on your new div
-- Add a mouseover handler which alerts the user which element ID was hovered over
+- Add a “click" and "mousemove” event listener on your new div
+- Add a  handlers which alerts the user which element ID was clicked on and moved over
 
 ## 2 DOM elements
 
@@ -44,9 +44,9 @@ The DOM is essentially a description of the elements on a web page along with th
 
 Do these after a quick scan of the [MDN DOM introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
 
-- Use the createElement method of the document object to add a new list `<ul>` to the DOM
-- Populate this list using a JS *for loop* which uses `appendChild()` to add list items `<li>`, using the new `<ul>` as the parent node.
-- Use a nested `innerHTML` assignment to put some text in your list items.
+- Use the createButton method of the document object to add a new list `<ul>` to the DOM
+- Populate this list using a JS *for loop* (name your buttons as B1, B2, ..)  
+- Test also how you could use `appendChild()`and `innerHTML` assignmentto your page.
 
 ## 3 JSON
 
@@ -64,18 +64,18 @@ It’s two main methods are for converting strings **to** and **from** *"native"
 
 - Define a new JS object in the JSON.html script which also contains nested objects (recall that JS objects can be nested multiple times) as some of its properties. For example:
 ```
-var employee = {
-    name: { 
-        first: "Colin",
-        second: "Stephen"
+var animal = {
+    breed: { 
+        latin: "Boidae",
+        swedish: "Jätteorm"
     },
-    title: "Superhero"
+    sound: "none"
 }
 ```
 - Convert your object to a *JSON string* `myString` and display it in a `<div>` somewhere on the page.
 - Convert the string back to a JS object myObject and assign one of the nested objects to a new variable. For example:
 ```
-var employeeName = myObject.name;
+var animalBreed = myObject.breed;
 ```
 - *Stringify* the new subobject and display it in another `<div>` elsewhere on the page.
 
@@ -100,7 +100,7 @@ The alertContents function also uses the `httpRequest` object (note that it is d
 
 ### 4.1 Test your Understanding
 
-You can make a simple “404” checker as follows.
+You can make a simple “404” checker as follows.// NOTE: this is the same excercise you have done earlier. Do not have a look there but try to solve the problem now!
 
 - Add a text input element to the page which the user can type a URL in to.
 - Add a button that when clicked tries to do an AJAX http request to the given URL.
