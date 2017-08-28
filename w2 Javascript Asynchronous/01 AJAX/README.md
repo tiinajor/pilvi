@@ -137,7 +137,7 @@ if (output.textContent !== undefined) {
 }
 ```
 
-### 5.1 Test your Understanding
+### 5.1 Test your Understanding - this is an important feature; test it over and add some other element you did on your web course!
 
 - Have a look at `dom_utils_global.js`, which is an implementation of a few additional DOM/event helpers
 - In particular note that it is defined as a module.
@@ -179,7 +179,7 @@ Since we assume that `getSync` actually returns a JSON string in this case, ther
 ### 6.1 Test your Understanding
 
 - Parse the content of the `chapter` objects returned by the `getJsonSync` as they come in from the server:
-  - If the html attribute contains the word “dictum” then make a AJAX call to a dictionary API that returns JSON, such as one of the API endpoints listed on the [Wordnik API documentation](http://developer.wordnik.com/docs.html#!/word/get_definitions)
+  - If the HTML attribute contains the word “dictum” then make a AJAX call to a dictionary API that returns JSON, such as one of the API endpoints listed on the [Wordnik API documentation](http://developer.wordnik.com/docs.html#!/word/get_definitions)
   - Parse the JSON response for a definition of the word and dynamically add a DOM element to the HTML page containing the term “dictum” along with the returned definition.
 - Now make your AJAX call and JSON response parsing dynamic, by allowing the user to double-click any word on the screen: double clicking it should provide a new entry in the “word dictionary list” somewhere on the page, containing the definition or “not found”. You may find this [StackOverflow question on handling double-clicks on words](http://stackoverflow.com/questions/878637/how-to-make-a-click-or-double-click-on-a-word-on-a-webpage-to-trigger-an-event-h) useful.
 
