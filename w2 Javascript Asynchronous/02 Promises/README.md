@@ -65,10 +65,11 @@ definition of `get()` and you will see that it does indeed:
 - The confirmation should ask whether the user wishes to continue downloading the next chapter
   - if so, progress as normal
   - if not, throw an exception, for example:
-  ```
+```
 var err = {message: "User aborted download"};
 throw(err);
 ```
+
 - Throwing an **err** object like this will pass it on to the `.catch()` method down the chain, which will show the message on the screen.
 
 ## 2 Async Fetch Data, and Post-Process
@@ -105,6 +106,7 @@ There is one stupendously powerful block of code that lets this happen:
   );
 })
 ```
+
 - Note the final block of code executed here:
   - `return Promise.all(chapterUrls.map(getJson));`
   - This returns a promise which completes when `.all()` of the promises in its argument complete.
