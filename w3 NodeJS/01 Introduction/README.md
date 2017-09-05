@@ -48,7 +48,7 @@ There are a number of _linters_ available for the JavaScript language. The origi
 
 ### 2.1 Linter Configuration
 
-ESLint is completely configurable through a configuration file `.eslintrc` which is located in the `01 Introduction to NodeJS` directory. By default any file or directory starting with the period (.) character is hidden. To display hidden files and directories click on the **gear icon** at the top of the _Documents Tree_ and choose _Show Hidden Files_.
+ESLint is completely configurable through a configuration file `.eslintrc` which is located in the `w3 NodeJS/01 Introduction` directory. By default any file or directory starting with the period (.) character is hidden. To display hidden files and directories click on the **gear icon** at the top of the _Documents Tree_ and choose _Show Hidden Files_.
 
 1. the **env** object imports groups of pre-defined global variables based on the _environment_ they are used in. In our example we will be writing scripts using the NodeJS environment so we want the linter to recognise any NodeJS global variables.
 2. the **rules** object defines any additional rules we want to enforce. In this example we are specifying that we _don't want semicolons_ at the end of each line, that we will use a 2 space tab for indenting, we will use single quotes for strings and that we are using UNIX line endings.
