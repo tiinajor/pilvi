@@ -59,7 +59,7 @@ Open the `books/books.js` file and locate the `exports.add` function.
 	- the exception is passed back to the caller `index.js` which should handle it
 	- if it is not handled the program will crash.
 3. Open the `books/index.js` file and locate where the function is called.
-  - Notice that the call to `books.search` is contained within a `try {} catch {}` block.
+  - Notice that the call to `books.add` is contained within a `try {} catch {}` block.
 	- if an exception is thrown, control passes immediately to the `catch {}` block
 	- the error information is stored in the `err` parameter and can be accessed.
 	- the code in the `finally {}` block is always executed whether an exception has been thrown or not.
