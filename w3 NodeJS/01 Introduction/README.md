@@ -34,7 +34,7 @@ There are three ways to declare a variable in the latest version of JavaScript (
   - now substitute a block-scoped variable by substituting `const` for `let`, what effect does this have?
 2. the array at the top of the script is defined using `var`. What happens if you make this immutable (use `const`)?
 3. Items are added to the array using its `push()` method.
-  - substute the [unshift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) method. How does this change the script?
+  - substitute `push()` for the [unshift](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) method. How does this change the script?
 
 ## 2 Linting
 
