@@ -192,7 +192,7 @@ Try to define a map-reduce chain of promises corresponding to button click event
 sequence of buttons clicked so far (similar to the AJAX calls completing above). For example:
   - User clicks 2, 1, 3, 5, 4
   - DOM updates none, (1,2), (1,2,3), none, (1,2,3,4,5) 
-  – User clicks 5, 4, 3, 2, 1
+  - User clicks 5, 4, 3, 2, 1
   - DOM updates none, none, none, none, (1,2,3,4,5)
   - etc.
   
