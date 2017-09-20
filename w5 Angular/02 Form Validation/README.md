@@ -23,7 +23,7 @@ Get yourself familiar with the examples of using AngularJS to define forms **01_
 1. Open file **form_skel.html**. 
     
       
-2. Insert the required input elements in the file and check that you have them all. 
+2. Insert the required input elements in the file and check that you have them all; use AngularJS.
 
 
 ## 2 Controlling input
@@ -31,9 +31,9 @@ Get yourself familiar with the examples of using AngularJS to define forms **01_
 
 ### 2.1 Test your understanding
 
-1. Open file **form_skel.html**. Change your input types for the input elements to appropriate values.
+1. Open file **form_skel.html**. Change your input types for the input elements to appropriate values; use AngularJS.
 
 
 ### 3.1 Test your understanding
 
-1. Open file **form_skel.html**. Validate the user's data in Student id, email address and score by using patterns.
+1. Open file **form_skel.html**. Validate the user's data in Student id, email address and score by using AngularJS patterns.
