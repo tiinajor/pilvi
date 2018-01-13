@@ -3,8 +3,7 @@
 
 ## 1 Editing and Testing JavaScript Code
 
-In the sidebar, locate the folder `labs/w1 JavaScript Language/01 JavaScript Tools/` and open the file  `basic_math.html` (notice: even if this has the same name as you have been working with earlier, the file itself has been updated - so do NOT copy your previous solutions but figure out new ones!). You can now make changes to the code. 
-To preview the page (and run your program) you need to view it in a new tab in your web browser. 
+In the sidebar, locate the folder `labs/w1 JavaScript Language/01 JavaScript Tools/` and open the file  `ex1.html` and `ex1.js`. You can now make changes to the code. To preview the page (and run your program) you need to view it in a new tab in your web browser. 
 At the top of the screen you should see a menu item called *Preview*.
 
 Make sure the html code is open then click *Preview* and choose *Live preview file*
@@ -12,15 +11,23 @@ This will open your web page in a new browser tab as shown.
 
 Now do the following:
 
-Try out the application by entering different values and clicking on the Calculate link.
+Modify the JS code so it prints out the alphabet A-Z in the console.
 
 Read through comments in the JS file, and try to understand the code. You can now make changes to the code.
 
 ### 1.1 Test Your Understanding
 
-1. Try to figure out calculations. What kind of corrections are needed to your code so calculations give the right answer?  (hint, check the [crib sheet](http://www.cheatography.com/davechild/cheat-sheets/javascript/)).
-2. modify the JS code to count the amount  - you wished to get only half of the amount you had in the beginning.(this is totally crazy - just testing you can edit a field when you push the button)
-3. modify the HTML form to include a *taxes* field (use different %-values), and include this value in the total calculation in `shopping.js`.
+1. Cannot:
+- Have any global variables at all
+- Delete or combine any function declarations
+- Create any new functions (except IIFEs -- hint!)
+- Rearrange the order of declarations
+
+2. Can/must:
+- Declare extra variables (as long as they're not global)
+- Modify (in-place) function declaration/initialization
+- Add/remove statements/expressions (IIFEs, return, params, etc)
+- Make the fewest changes possible
 
 As you edit the file in C9 you have to save once in a while. To view the new version simply refresh the web browser tab running your web page.
 
