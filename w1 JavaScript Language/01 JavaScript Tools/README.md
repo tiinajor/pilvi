@@ -36,11 +36,11 @@ As you edit the file in C9 you have to save once in a while. To view the new ver
 To help you get acquainted with the syntax used in JavaScript, use a tutorial such as [W3Schools JavaScript tutorial](http://www.w3schools.com/js/). You will learn that several JavaScript constructs, such as the control structures are very similar to Java.
 
 ## 2 Chrome Developer Tools
-To follow this example you will be using the Chrome Developer Tools.
+Get familiar with the Chrome Developer Tools.
 
 ### 2.1 Console Output
 
-Load up `conditionals_booleans.html` and run it in a new browser tab.
+Load up `ex2.html` and run it in a new browser tab.
 Enter some valid inputs into the form and submit it...
 
 “Nothing” happens. . . Actually, the result is being logged to the console which is a part of the Chrome Developer Tools integrated in to the browser.
@@ -52,9 +52,9 @@ Enter some valid inputs into the form and submit it...
 
 ### 2.2 Test Your Understanding
 
-1. Load up `conditionals_booleans.html` and modify the HTML form to include a “UserID" & "Password” fields 
-2. Add validation in contact.js to ensure that the UserID entered has at least  between 6 and 25 characters in length - and some of the characters are numbers.
-3. Add even validation for your Password-field (this time password can be fixed to "paSSw0rd")
+1. Load up `ex2.html` and modify the HTML form to include one new field 
+2. Add validation in ex2.js to ensure that the added field entered has at least  between 6 and 25 characters in length - and some of the characters are numbers.
+
 
 ## 3 ESLint Code Checking
 
@@ -75,19 +75,25 @@ that we will use a 2 space tab for indenting, we will use single quotes for stri
 To enable ESLint you need to copy configuration file .eslintrc to the workspace  ~/workspace directory. 
 You can configure eslint, look at [configuring](http://eslint.org/docs/user-guide/configuring).
 
-Load up `js/notes.js` in C9 and run it to prove the code is fully functional. Make sure you understand how it works.
+Load up `js/ex2.js` in C9 and run it to prove the code is fully functional. Make sure you understand how it works.
 
-1. Notice the red error circles and yellow warning triangles in the left margin. If you hover the mouse pointer over these you can find out more.
-2. Read the warning message and use this information to correct the code
+1. In this exercise, you will modify existing code for a simple note taking app. You will not add/remove functionality per se, but instead organize the code into a more proper module design and make it more flexible/reusable.
+
+2. Using what you learned about closure and the module pattern, modify your previous code to wrap all the functionality up into a simple object (call it "NotesManager" or something appropriate), with a simple API, consisting of:
+  - an `init()` method, which you will call from the outside when jQuery's `document.ready` event is fired, and pass in the data from the "database".
+  - a public method to add in notes "in bulk" after retrieval from the "database". hint: this can/should be called **before** you run the "init" method.
+
+3. Make sure you have a "private" storage of the `notes` data list inside your module. Why is it a good idea to keep the data "private" inside the module?
+
+4. What do you notice about the structure of this code as it relates to the DOM access and the usage of jQuery? Would it make sense to "generalize" this code so that the module didn't have hardcoded into it the various DOM elements it would operate on? Explore how you would modify the code in this fashion. What are the benefits and tradeoffs?
+
 
 Note that many of the highlighted issues are about things like indentation, and consistency of style, as well as syntax. That is because linters take readable code very seriously, 
 and so should you! You should aim to have no ESLint warnings when you write your JavaScript or other programming code.
 
-1. Open up the preview of the switch_case.html file in a new browser tab to see what it does
-2. Load the js/membership.js file and follow the code to determine how it works
 
 ### 3.2 Test your understanding
-Once you have corrected for any ESLint errors found by the code linter (`js/notes.js`), do the following.
+Once you have corrected for any ESLint errors found by the code linter (`js/ex2.js`), do the following.
 
 1. Locate all the ESLint errors and warnings and understand what they mean
 2. Correct the app to eliminate all the errors (make sure it still runs correctly!)
@@ -106,7 +112,7 @@ To enable strict mode you simply add a line of code.
 This can be added to the top of your script if you want it to apply to everything, alternatively it can be implemented only within certain blocks of code by adding it there instead.
 
 ### 4.1 Activity
-Add this line to the top of your `notes.js` script. Notice how you now get a number of additional errors flagged in your code!
+Add this line to the top of your `ex2.js` script. Notice how you now get a number of additional errors flagged in your code!
 
 Amongst other things, the global objects console and document are not recognised. We need to indicate that these objects have already been defined 
 but also that they must not be overwritten (false). 
@@ -156,4 +162,15 @@ Lets get familiar with the debugger:
 Use the debugger to help fix a problem with our program:
 
 It is currently possible to add duplicate items. Instead of adding duplicated the quantity should increase by one.
+
+1. In this exercise, you will revisit your work from exercise 2 (the note taking app). You will need to copy in your fixed code from "ex2.js" (or "ex2-fixed.js") into the "ex3.js" file, as your starting point.
+
+2. Using what you learned about `prototype` to construct an object instance, modify your previous code to not use module/encapsulation pattern, but instead create a `this` based object. Your public API should stay the same from exercise 2 (although everything will be public now). The main difference will be that you have a constructor function called "NotesManager" (or whatever), and then you will need to create an instance of that object, and can call it something useful, like "myNotes".
+
+3. Pay particular attention to your event handlers and what we learned about how `this` gets reassigned. What have we learned about how to fix that?
+
+4. Because a `this` based object does not have "private" (encapsulated) data, your data will be publicly available on the instance, as well as all your helper methods. How does this change the maintainability and robustness of your code and implementation?
+
+5. What benefits do you see to structuring your code this (`prototype`-based) way? What are the tradeoffs?
+
 
