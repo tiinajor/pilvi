@@ -1,24 +1,24 @@
 A();
 
 function C() {
-	console.log("OOPS!");
+	// write here console comment "OOPS!"
 }
 
 function E(f) {
-	console.log("E");
+	// write here console comment "E"
 	f();
 	var f = F;
 }
 
 var A = function() {
-	console.log("A");
+	// write here console comment "A"
 	B();
 };
 
 var C;
 
 function G() {
-	console.log("G");
+	// write here console comment "G"
 	H();
 
 	var H = function() {
@@ -30,18 +30,18 @@ function G() {
 var D = d;
 
 function d() {
-	console.log("D");
+	// write here console comment "D"
 	E();
 }
 
 function I() {
-	console.log("I");
+	// write here console comment "I"
 	J();
 	J();
 }
 
 B = function() {
-	console.log("B");
+	// write here console comment "B"
 	C();
 };
 
