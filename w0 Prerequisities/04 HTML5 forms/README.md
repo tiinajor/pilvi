@@ -2,7 +2,7 @@
 
 In this lab you learn to create a form which is a control that accepts information from the user and sends the information to a web server.
 
-The information is sent to the server as a query string. We will learn more on interacting with the user later on Javascript and PHP modules.
+The information is sent to the server as a query string. 
 
 ## Task list
 
@@ -50,7 +50,7 @@ HTML form is just a set of things, which are called controls. They are elements 
 
 In our form we have 2 input elements. The first one is for text input and we named it q because it happens to be the Google search string. 
 
-It is important to have the name attribute on each input control and name should be unique. This is how browser knows how to send control's data to the server. You'll find out more about this later when PHP is discussed.
+It is important to have the name attribute on each input control and name should be unique. This is how browser knows how to send control's data to the server. 
 
 Second input element's type is `submit` which generates a submit button for the user. This one sends the form information to the URL mentioned in the action.
 
@@ -89,7 +89,7 @@ If you use these kind of types, you will get error messages like
 
 ![Example of an error message](img/error_html5.png).
 
-The browser tries to verify user's input. These error messages depend on the operating system's language and also browser's language. It you change your browser's language, you will see these messages in another language. But if you don't want to change the language, there is a way in HTML5 to do it. By using title attribute, we'll get a partial solution, but in order to do it totally, we need either Javascript or PHP, we'll learn about these later.
+The browser tries to verify user's input. These error messages depend on the operating system's language and also browser's language. It you change your browser's language, you will see these messages in another language. But if you don't want to change the language, there is a way in HTML5 to do it. By using title attribute, we'll get a partial solution, but in order to do it totally, we need either Javascript or PHP or NodeJS.
 
 ### Selectable lists
 
