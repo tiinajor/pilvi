@@ -15,7 +15,7 @@ Modify the JS code so it prints out the alphabet A-Z in the console.
 
 Read through comments in the JS file, and try to understand the code. You can now make changes to the code.
 
-### 1.1 Test Your Understanding
+### TODO: 1 Test Your Understanding
 
 1. Cannot:
 - Have any global variables at all
@@ -50,7 +50,7 @@ Enter some valid inputs into the form and submit it...
 3. Click on the console tab and try submitting the form again (you can ignore errors at this point) to see output
 
 
-### 2.2 Test Your Understanding
+### TODO 2 Test Your Understanding
 
 1. Load up `ex2.html` and modify the HTML form to include one new field 
 2. Add validation in ex2.js to ensure that the added field entered has at least  between 6 and 25 characters in length - and some of the characters are numbers.
@@ -92,7 +92,7 @@ Note that many of the highlighted issues are about things like indentation, and 
 and so should you! You should aim to have no ESLint warnings when you write your JavaScript or other programming code.
 
 
-### 3.2 Test your understanding
+### TODO 3 Test your understanding
 Once you have corrected for any ESLint errors found by the code linter (`js/ex2.js`), do the following.
 
 1. Locate all the ESLint errors and warnings and understand what they mean
@@ -126,7 +126,7 @@ To do this we need to identify these global objects in the `.eslintrc` file. Loc
 
 You should now see that the errors relating to these objects not being declared have disappeared.
 
-### 4.2 Test Your Understanding
+### TODO 4 Test Your Understanding
 
 With strict mode enabled your program will throw errors which can be seen in the browser console.
 
@@ -157,7 +157,7 @@ Lets get familiar with the debugger:
 4. Click on the Step into next function call button (down arrow with dot). This will run line 5 and move execution to line 6. Click this button to execute the code line by line.
 5. Observe the variables changing in the right-hand panel.
 
-### 5.2 Test Your Understanding
+### TODO 5 Test Your Understanding
 
 Use the debugger to help fix a problem with our program:
 
