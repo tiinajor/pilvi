@@ -16,17 +16,17 @@ Modify the JS code so it prints out the alphabet A-Z in the console.
 Read through comments in the JS file, and try to understand the code. You can now make changes to the code.
 
 ### TODO: 1 Test Your Understanding
-
+Make the following changes in the  `ex1.js` file.
 1. Cannot:
 - Have any global variables at all
 - Delete or combine any function declarations
-- Create any new functions (except IIFEs -- hint!)
+- Create any new functions
 - Rearrange the order of declarations
 
 2. Can/must:
 - Declare extra variables (as long as they're not global)
 - Modify (in-place) function declaration/initialization
-- Add/remove statements/expressions (IIFEs, return, params, etc)
+- Add/remove statements/expressions (return, params, etc)
 - Make the fewest changes possible
 
 As you edit the file in C9 you have to save once in a while. To view the new version simply refresh the web browser tab running your web page.
@@ -36,7 +36,7 @@ As you edit the file in C9 you have to save once in a while. To view the new ver
 To help you get acquainted with the syntax used in JavaScript, use a tutorial such as [W3Schools JavaScript tutorial](http://www.w3schools.com/js/). You will learn that several JavaScript constructs, such as the control structures are very similar to Java.
 
 ## 2 Chrome Developer Tools
-Get familiar with the Chrome Developer Tools.
+Get familiar with the Chrome Developer Tools. They are your friens when you have problems in your code.
 
 ### 2.1 Console Output
 

@@ -55,7 +55,7 @@ It is important to have the name attribute on each input control and name should
 Second input element's type is `submit` which generates a submit button for the user. This one sends the form information to the URL mentioned in the action.
 
 
-### Test your understanding
+### TODO 1 Test your understanding
 
 1. Open file **form_skel.html**. 
     
@@ -103,7 +103,7 @@ The `select` element defines a selectable list, and the `OPTION` element is used
 
 Every `option` element should have a unique value, just like in check boxes and radio buttons.
 
-### Test your understanding
+### TODO 2 Test your understanding
 
 1. Open file **form_skel.html**. Change your input types for the input elements to appropriate values.
 
@@ -175,7 +175,7 @@ Of course you can use also the normal selectors for elements like `form`, `legen
 Therefore you should always check that the results are what is expected.
 
 
-### Test your understanding
+### TODO 3 Test your understanding
 
 Suppose we want to have our web site in another language. For example in Finnish. Open file **form_skel.html**.
 
@@ -243,6 +243,6 @@ After "-" there are 3 digits and last character can be either digit or letter fr
 ```
 \d means a digit, \\- means the "-", [chars] means a set of characters.
 
-### Test your understanding
+### TODO 4 Test your understanding
 
 1. Open file **form_skel.html**. Validate the user's data in Student id, email address and score by using patterns.

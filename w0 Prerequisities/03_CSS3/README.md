@@ -149,7 +149,7 @@ Validation makes sure that your CSS file complies with the CSS syntax. It may al
 Go to the validation page, and validate the file you created. If no errors are found, introduce some on purpose and see how the validator reports them.
 
 
-### Test your understanding
+### TODO 1 Test your understanding
 
 You need the aforementioned file `simple.css`.
 
@@ -240,7 +240,7 @@ In the file, there are five paragraphs (`p`) and one header (`h1`). Verify that 
 If a property of an element would be defined in multiple CSS rules, the rule whose selector has highest specificity wins. For instance, the properties defined in a class-specific rule override the attributes defined in the general rule for the element.
 
 
-### Test your understanding
+### TODO 2 Test your understanding
 1. Modify the **selectors.html** and **selectors.css** files so that the first, third, and fifth paragraph appear underlined (in addition to the existing formatting). You should achieve this with a single CSS rule.
 
 2. In **csstest.html** file, add a paragraph about Basic programming to the bottom of the page (Basic was a common language for programming 80's home computers). Below the paragraph, add a sample program as below:
@@ -524,7 +524,7 @@ body {
 ```
 
 
-### Test your understanding
+### TODO 3 Test your understanding
 
 1. Open file **columns.html**. Generate a style sheet **columnstyles.css** where the paragraphs are displayed in:
     a. two columns
@@ -646,7 +646,7 @@ For Bootstrap reference, use sources such as:
 
 Add more content to the page and test the outcome in a browser. Test responsiveness by resizing the browser window and/or opening the page in a mobile device.
 
-### Test your understanding
+### TODO 4 Test your understanding
 
 1. Add the following elements into the **game.html** page:
     - a well (a gray area with rounded edges), that contains facts about Mars.

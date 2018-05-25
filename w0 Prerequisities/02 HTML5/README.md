@@ -192,7 +192,7 @@ A relative link is intended for links within the same domain. The parsing of the
 Add a link or two to suitable places in **computers80.html**.
 
 
-### Test your understanding
+### TODO 1 Test your understanding
 
 1. Create a Commodore 64 web page to the same web site. To do this, create a file called **commodore64.html** and include the following content, properly marked in HTML. Finally, link the main page (computers80.html) to your new page by adding a link from the correct list item.
 
@@ -239,7 +239,7 @@ Verify that you understand the elements used in marking up the table:
 - `td` for a table data cell, i.e. regular table cell.
 
 
-### Test your understanding
+### TODO 2 Test your understanding
 1. Modify the table structure to contain a column for Spectravideo home computer. Its data is: Spectravideo SV-328, Zilog Z80A CPU, 64kB RAM, 32kB ROM.
 2. Generate two additional rows where each row should have a multi-column cell (use `colspan` attribute):
     - Main usage: home computing (for all computers, a single cell should span over four columns)
@@ -289,7 +289,7 @@ There are more semantic elements to clarify the content, such as `thead`, `tbody
 
 The use of semantic elements is encouraged, even though they are not yet in widespread use.
 
-### Test your understanding
+### TODO 3 Test your understanding
 
 1. Generate a personal webpage of a fictitious student Jane Doe, or John Doe (or your own, if you prefer), that contains at least the information listed below. Use semantic elements when applicable.
     - personal data (first names, family name, date of birth)
