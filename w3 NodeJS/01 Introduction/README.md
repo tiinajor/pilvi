@@ -66,15 +66,16 @@ Notice the _red error circles_ and _yellow warning triangles_ in the left margin
 
 The **Cloud9** IDE includes a powerful debugger. Lets test how this works. You should then make use of it when attempting the *Test Your Knowledge* tasks.
 
-Stop the script using `ctrl+C` and restart it. By stopping and restarting the script it will have lost the list items you typed in previously.
+Stop the script (todo.js) using `ctrl+C` and restart it. By stopping and restarting the script it will have lost the list items you typed in previously.
 
 1. add the cheese item to the list (see above)
-2. add a breakpoint to the code just inside the callback by clicking in the left margin next to `console.log(typeof chunk)`. Breakpoints are indicated by red circles.
-3. add the *bread* item. Notice that the program execution stops on `console.log(typeof chunk)` without executing it.
+2. add a breakpoint to the code just inside the callback by clicking in the left margin next to `let item = input.substring(space).trim()`. 
+Breakpoints are indicated by red circles.
+3. add the *bread* item. Notice that the program execution stops on `let item = input.substring(space).trim()` without executing it.
 4. notice all the script's variables are listed as *undefined* in the right-hand pane.
-5. click on the **step over** button (indicated in the screenshot below) twice to execute lines 11 and 12. The local text variable should now contain the string you typed in. Locate this in the *local variables* pane. Now hover your mouse pointer over the variable name.
+5. The local text variable should now contain the string you typed in. Locate this in the *local variables* pane. Now hover your mouse pointer over the variable name.
 6. practice using the debugger buttons *Resume*, *Step Into*, *step out* until you understand their function.
-7. the `lists` array is not a local variable and so doesn't appear in the right-hand pane. To keep track of this we can add it as a _watch expression_. In the **Watch Expressions** pane type in `lists` and press enter. You can now see the contents of the array change as the program executes. You can of course also hover over the variable name in the code...
+7. In the **Watch Expressions** pane type in `itemss` and press enter. You can now see the contents of the array change as the program executes. You can of course also hover over the variable name in the code...
 
 ![Cloud9 Debugger](images/node_debugger.png)
 
