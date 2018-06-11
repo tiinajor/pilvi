@@ -26,7 +26,7 @@ Open the `books/index.html` file.
   - we are injecting the [$http service](https://docs.angularjs.org/api/ng/service/$http) into the searchController and will use this to make http requests
   - we are injecting the [$routeParams service](https://docs.angularjs.org/api/ngRoute/service/$routeParams) into the detailController which allows us to read any parameters in the url
 
-### 1.1 Test Your Knowledge
+### TODO 1 Test Your Knowledge
 
 1. create a new route called **recent**
 2. create a link to display this new route
@@ -46,7 +46,7 @@ Local Storage is part of the HTML5 [Web Storage API](https://developer.mozilla.o
   - finally the array is assigned to the `$scope` object and bound to the view.
 3. Immediately after being declared, this `init()` function is run which means the code is run each time the controller is called.
 
-### 2.1 Test Your Knowledge
+### TODO 2 Test Your Knowledge
 
 At present only the _book id_ is being stored.
 

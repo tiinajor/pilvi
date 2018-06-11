@@ -12,7 +12,7 @@ This week introduces the two key data types in JS: objects and functions. Get us
 
 The calculator has only ability to add and multiply numbers. It other aritmetic operations are added, you should consider also what kind of results you get from the operations. 
 
-### 1.1 Test Your Understanding
+### TODO 1 Test Your Understanding
 Open `calc.js` file. Improve the calculator with division and subtraction. Make sure that the page is usable without any instructions. The labels, buttons and texts should be enough to use it.
 
 # 2  Cargo
@@ -22,7 +22,7 @@ The code has only templates for making new objects like bags, different stuff yo
 Remember we had Jasmine a behavior-driven development framework for testing JavaScript code in earlier courses (see [documentation](https://jasmine.github.io/2.1/introduction.html)).
 
 
-### 2.1 Test Your Understanding
+### TODO 2 Test Your Understanding
 
 Every stuff has a name and weight. You can add stuff in a bag and a bag has a maximum weight. In a cargo hold you can put bags, and also the cargo hold has a maximum weight.
 You van add stuff only in a bag and bags only in a cargo.
@@ -51,7 +51,7 @@ it('laukun paino: pitäisi olla 3: ’, function(){
 
 The boilerplate code in `listofpersons.js` has a sketch for developing an application for people data management. The code is made according to module pattern. The only function call outside manager name area is init function.
 
-### 3.1 Test Your Understanding
+### TODO 3 Test Your Understanding
 
 Implement following functionalities
  

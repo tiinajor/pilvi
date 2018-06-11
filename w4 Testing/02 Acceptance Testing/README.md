@@ -28,7 +28,7 @@ Acceptance testing will be carried out using the [frisby](https://www.npmjs.com/
 5. run the acceptance tests by entering `jasmine-node test/ --verbose`, this will output the test results to the terminal. Take a few moments to understand this output.
 6. run the acceptance tests again. Why do they fail this time, use the error trace to find out what failed and why.
 
-## 1.1 Test Your Knowledge
+## TODO 1 Test Your Knowledge
 
 1. create a new test `DELETE /lists` and add it at the start of the test. Eventually this should clear all the lists in the API and return success, lists deleted.
 2. run your tests, they should fail (we have not written the new API feature!

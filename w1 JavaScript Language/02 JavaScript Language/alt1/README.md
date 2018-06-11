@@ -22,7 +22,7 @@ In this task you will write a simple function to detect and remove duplicates fr
 2. Use the  *Preview*  button to test out what the page does.
 3. Open the associated JS file `js/tasks.js` and check you understand how it works.
 
-### 1.1 Test Your Understanding
+### TODO 1 Test Your Understanding
 
 You need the aforementioned files `js/tasks.js` and `simple_function.html`.
 
@@ -42,7 +42,7 @@ NOTE: all output from the JS appears on the console.
 3. Refresh the browser to see alternative outputs.
 4. Review the JS in the html file and ensure you understand how it works.
 
-### 2.1 Test Your Understanding
+### TODO 2 Test Your Understanding
 
 1. Add a `makeEngine()` function that constructs and returns random engine objects. Engines might be characterised by:
 
@@ -65,7 +65,7 @@ NOTE: all output from the JS appears on the console.
 
 3. Review the JS in the html file and ensure you understand how it works.
 
-### 3.1 Test Your Understanding
+### TODO 3 Test Your Understanding
 
 1. Add an empty internal updateFuel() function within the drive method of the fiat object.
 2. Add code to the new helper function which updates the fuel by decrementing the fiat’s fuel by 1.

@@ -18,7 +18,7 @@ Read data binding and validation section in http://www.w3schools.com/angular/ang
 Get yourself familiar with the examples of using AngularJS to define forms **01_form_intro.html**, **02_validation.html**, 
 **03_select.html** and **04_service.html**.
 
-### 1.2 Test your understanding
+### TODO 1 Test your understanding
 
 1. Open file **form_skel.html**. 
     
@@ -29,11 +29,11 @@ Get yourself familiar with the examples of using AngularJS to define forms **01_
 ## 2 Controlling input
 
 
-### 2.1 Test your understanding
+### TODO 2 Test your understanding
 
 1. Open file **form_skel.html**. Change your input types for the input elements to appropriate values; use AngularJS.
 
 
-### 3.1 Test your understanding
+### TODO 3 Test your understanding
 
 1. Open file **form_skel.html**. Validate the user's data in Student id, email address and score by using AngularJS patterns.

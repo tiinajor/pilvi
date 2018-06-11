@@ -29,7 +29,7 @@ Finally there is the _package_ file and a simple script, `index.js` for you to u
 6. open the `coverage/` directory and preview the `index.html` file it contains and navigate to the  `modules/shopping/` web page.
 7. try to understand what information it telling you about the state of code coverage.
 
-## 1.1 Test Your Knowledge
+## TODO 1 Test Your Knowledge
 
 Make sure your IDE is configured so you can see access all of the following files:
 
@@ -76,7 +76,7 @@ The key differences between this and the previous example are the multiple specs
   - open the `medium-spec.js` file and uncomment the `taxi.__set__()` method which substitutes a different function, this loads data from a file rather than make the API call.
   - check the results of the test suite
 
-## 2.1 Test Your Knowledge
+## TODO 2 Test Your Knowledge
 
 1. create a third _test suite_ to simulate a longer journey of more than 150 miles
   - use the `index.js` script to generate a suitable URL for the API and print this to the console

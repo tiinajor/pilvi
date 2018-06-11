@@ -29,7 +29,7 @@ next();
 };
 ```
 
-### Test your understanding
+### TODO 1 Test your understanding
 
 1.  Get acquainted with the express application on week 6 the folder `02  Express Introduction/middleware demo`.
 
@@ -46,7 +46,7 @@ next();
 
 Start thinking of making a REST API by yourself. You should use only ExpressJS in your application. You can start with the middleware example. Next week is explaining routing done with ExpressJS, but you can start to design your own API.
 
-### Test your understanding
+### TODO 2 Test your understanding
 
 1. Take a look at [HeiaHeia's API] (http://developers.heiaheia.com/index.html#!/). It is definately too large for a little API exercise, but think what kind of resources you would have in a similar type of application.
 2. List the HTTP methods you will have in your API. At least getting a list of items, filtering a list of items by some criteria, inserting an item, deleting an item.

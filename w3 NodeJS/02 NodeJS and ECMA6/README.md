@@ -26,7 +26,7 @@ Open the `promises.js` file and study the code carefully.
 8. uncomment the reject function call in the second, how does this affect the execution?
 9. what happens if the first promise resolves and the second rejects?
 
-### 1.1 Test Your Knowledge
+### TODO 1 Test Your Knowledge
 
 1. rewrite the first function using the _arrow function_ syntax. Make sure it still works.
 2. write another function that capitalises the last letter in the string using the _arrow function_ syntax.
@@ -65,7 +65,7 @@ Open the `books/books.js` file and locate the `exports.add` function.
 	- the code in the `finally {}` block is always executed whether an exception has been thrown or not.
 	- the `finally {}` block is optional.
 
-#### 2.1.1 Test Your Knowledge
+#### TODO 2 Test Your Knowledge
 
 1. Create a new function that deletes the specified book, it should return the id of the book deleted or throw an error if the book can't be found.
 2. Modify the `index.js` file so you can test its functionality
@@ -84,14 +84,14 @@ JavaScript handles long-running processes in their own threads to prevent blocki
 	- notice that if there is _no problem_ we set the first parameter to `null` and pass the data to the second parameter
 	- both these actions are consistent with the correct JavaScript approach.
 
-#### 2.2.1 Test Your Knowledge
+#### TODO 3 Test Your Knowledge
 
 1. Create a new function in `books/books.js` to take a book id and return information about it.
   - https://www.googleapis.com/books/v1/volumes?q=tBbsAgAAQBAJ
 2. Make sure you handle any possible errors such as an invalid id.
 3. Modify the `books/index.js` file so you can test it by using the _describe_ command.
 
-### 2.3 Advanced Challenge
+### TODO 4 Advanced Challenge
 
 1. There is no check to see if a book exists before being added to the list. Create a new function and store it in the `validateBookId` property. This should check whether the book id being added is valid.
 2. Use this new functionality to only add valid books to the list.

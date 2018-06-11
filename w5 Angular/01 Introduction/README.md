@@ -45,7 +45,7 @@ Open the script and read through it to fully understand the structure of an _Ang
   - this is why the heading updates automatically!
 3. There is a function stored in the encode property, this is referenced in the [ng-click](https://docs.angularjs.org/api/ng/directive/ngClick) directive gets called when the button is pressed.
 
-### 1.1 Test Your Knowledge
+### TODO 1 Test Your Knowledge
 
 1. Add another button labelled **Decode**.
 2. When clicked it decodes the Base64-encoded string and displays the result in a new paragraph (use the `atob()` function.
@@ -92,7 +92,7 @@ By implementing the _MVC_ pattern we make it easy to write [unit tests](https://
 
 Open the `spec/index.html` file and read through it to understand how it works.
 
-### 2.4 Test Your Knowledge
+### TODO 2 Test Your Knowledge
 
 Work through the following tasks, use the _test suite_ to check your solutions work.
 
@@ -120,7 +120,7 @@ Now open the `js/todo.js` controller.
   - depending on the browser it will either have a `.which` or `.keyCode` property which returns an integer
   - code 13 corresponds to the enter key.
 
-### 3.1 Test Your Knowledge
+### TODO 3 Test Your Knowledge
 
 Work through the following tasks, use the _test suite_ to check your solutions work.
 
