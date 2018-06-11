@@ -27,7 +27,7 @@ There are three ways to declare a variable in the latest version of JavaScript (
 2. Immutable variables (constants) are also function scoped. These are declared using the `const` keyword.
 3. Finally, any variable declared with the `let` keyword is _block scoped_. This means the variable is only visible within its block (defined by curly braces).
 
-### 1.2 Test Your Knowledge
+### TODO 1 Test Your Knowledge
 
 1. locate the `input` variable declaration (just inside the `do` loop)
   - substitute it for a constant by replacing the `var` with `const`, what effect does this have.
@@ -53,7 +53,7 @@ ESLint is completely configurable through a configuration file `.eslintrc` which
 1. the **env** object imports groups of pre-defined global variables based on the _environment_ they are used in. In our example we will be writing scripts using the NodeJS environment so we want the linter to recognise any NodeJS global variables.
 2. the **rules** object defines any additional rules we want to enforce. In this example we are specifying that we _don't want semicolons_ at the end of each line, that we will use a 2 space tab for indenting, we will use single quotes for strings and that we are using UNIX line endings.
 
-### 2.2 Test Your Knowledge
+### TODO 2 Test Your Knowledge
 
 Open the `membership.js` file. Run the script, it works correctly.
 
@@ -81,7 +81,7 @@ Breakpoints are indicated by red circles.
 
 You can read more about Cloud9 debugger capabilities in their [online documentation](https://docs.c9.io/docs/running-and-debugging-code). You should take time to get familiar with its capabilities.
 
-### 3.2 Test Your Knowledge
+### TODO 3 Test Your Knowledge
 
 1. modify the code to prevent duplicate items being added. You will need to use the [`Array.indexOf()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) method.
 2. create a **remove** option so an item such as *cheese* can be removed using the syntax `remove cheese`. You may need to use the [`Array.splice()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) method.
