@@ -1,4 +1,4 @@
-#A small API
+# A small API
 
 
 The `todo/` directory contains a simple API that demonstrates these key concepts. The first step is to run it and interact with it to understand these REST principles and how they are implemented.
