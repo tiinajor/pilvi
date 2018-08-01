@@ -25,7 +25,7 @@ The code you will look at below invokes handlers that check for methods and prop
 - Note that the callback handleClick looks for a property called target on the event it is passed
   - Depending on the property availability, the callback correctly identifies the target element in the DOM
 
-### 1.1 Test your Understanding
+### TODO 1 Test your Understanding
 
 - Add a new div containing some text
 - Add a “click" and "mousemove” event listener on your new div
@@ -40,7 +40,7 @@ The DOM is essentially a description of the elements on a web page along with th
 - Also observe that the `addtext()` function dynamically adds a new element to the DOM ( a “text node”).
   - Similarly you can add other HTML tags such as `<a>` or `<p>` etc., or update their attributes
 
-### 2.1 Test your Understanding
+### TODO 2 Test your Understanding
 
 Do these after a quick scan of the [MDN DOM introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
 
@@ -60,7 +60,7 @@ It’s two main methods are for converting strings **to** and **from** *"native"
 - Note that the first output corresponds to accessing a property of a JS object that was *created* from a string using `JSON.parse()`.
 - Note that the second output corresponds to displaying in *text format* (also suitable for transmission over HTTP) the contents of a JS object, including its property names and values.
 
-### 3.1 Test your understanding
+### TODO 3 Test your understanding
 
 - Define a new JS object in the JSON.html script which also contains nested objects (recall that JS objects can be nested multiple times) as some of its properties. For example:
 ```
@@ -98,7 +98,7 @@ The alertContents function also uses the `httpRequest` object (note that it is d
 - The alert checks whether the new `readyState` on the request object corresponds to the completion of the request `(value === 4)`
 - If so, and if the server response status indicates success `(value === 200)`, then the responseText from the HTTP response is shown in an alert.
 
-### 4.1 Test your Understanding
+### TODO 4 Test your Understanding
 
 You can make a simple “404” checker as follows.// NOTE: this is the same excercise you have done earlier. Do not have a look there but try to solve the problem now!
 
@@ -137,7 +137,9 @@ if (output.textContent !== undefined) {
 }
 ```
 
-### 5.1 Test your Understanding - this is an important feature; test it over and add some other element you did on your web course!
+### TODO 5 Test your Understanding 
+
+- this is an important feature; test it over and add some other element you did on your web course!
 
 - Have a look at `dom_utils_global.js`, which is an implementation of a few additional DOM/event helpers
 - In particular note that it is defined as a module.
@@ -176,7 +178,7 @@ Since we assume that `getSync` actually returns a JSON string in this case, ther
 - Review the DOM stuff code at the bottom of the file
 - Note that this is straightforward: wrap some element creation and content setting in some function blocks that we can call quickly from elsewhere.
 
-### 6.1 Test your Understanding
+### TODO 6 Test your Understanding
 
 - Parse the content of the `chapter` objects returned by the `getJsonSync` as they come in from the server:
   - If the HTML attribute contains the word “dictum” then make a AJAX call to a dictionary API that returns JSON, such as one of the API endpoints listed on the [Wordnik API documentation](http://developer.wordnik.com/docs.html#!/word/get_definitions)
