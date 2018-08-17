@@ -3,57 +3,60 @@
 
 ## 1 Editing and Testing JavaScript Code
 
-In the sidebar, locate the folder `labs/w1 JavaScript Language/01 JavaScript Tools/` and open the file  `ex1.html` and `ex1.js`. You can now make changes to the code. To preview the page (and run your program) you need to view it in a new tab in your web browser. 
+In the sidebar open the files  `calculations.html` and `calculations.js`. You can now make changes to the code. To preview the page (and run your program) you need to view it in a new tab in your web browser. 
 At the top of the screen you should see a menu item called *Preview*.
 
-Make sure the html code is open then click *Preview* and choose *Live preview file*
+Make sure the html code is open then click *Preview* and choose *Live preview file*.
 This will open your web page in a new browser tab as shown.
 
-Now do the following:
-
-Modify the JS code so it prints out the alphabet A-Z in the console.
-
-Read through comments in the JS file, and try to understand the code. You can now make changes to the code.
-
 ### TODO: 1 Test Your Understanding
-Make the following changes in the  `ex1.js` file.
-1. Cannot:
-- Have any global variables at all
-- Delete or combine any function declarations
-- Create any new functions
-- Rearrange the order of declarations
+- Write a JavaScript program to calculate multiplication and division of two numbers (input from user). 
+- Define a form like this
 
-2. Can/must:
-- Declare extra variables (as long as they're not global)
-- Modify (in-place) function declaration/initialization
-- Add/remove statements/expressions (return, params, etc)
-- Make the fewest changes possible
+![Example of a two number form](img/form.png)
+
+- validate that user input is numbers, before you call divideBy or multiplyBy function. 
+- check also that you don't divide by zero
+- show the result on the page
 
 As you edit the file in C9 you have to save once in a while. To view the new version simply refresh the web browser tab running your web page.
 
-### 1.2 JavaScript source material
+### JavaScript source material
 
 To help you get acquainted with the syntax used in JavaScript, use a tutorial such as [W3Schools JavaScript tutorial](http://www.w3schools.com/js/). You will learn that several JavaScript constructs, such as the control structures are very similar to Java.
 
 ## 2 Chrome Developer Tools
-Get familiar with the Chrome Developer Tools. They are your friens when you have problems in your code.
+Get familiar with the Chrome Developer Tools. They are your friends when you have problems in your code.
 
 ### 2.1 Console Output
 
-Load up `ex2.html` and run it in a new browser tab.
-Enter some valid inputs into the form and submit it...
+Load up `guess.html` and run it in a new browser tab.
 
 “Nothing” happens. . . Actually, the result is being logged to the console which is a part of the Chrome Developer Tools integrated in to the browser.
 
-1. From the customise and control menu in Chrome (3 horizontal bars), choose More tools > Developer tools (ctrl-shift-I on a Chromebook) to open the Developer Tools pane. 
+1. From the customize and control menu in Chrome (3 horizontal bars), choose More tools > Developer tools (ctrl-shift-I on a Chromebook) to open the Developer Tools pane. 
 2. This can be docked to the right or bottom of the main window (bottom preferable).
 3. Click on the console tab and try submitting the form again (you can ignore errors at this point) to see output
+4. Code is missing the call of init function, you must define that init function is called when the form is submitted.
 
 
 ### TODO 2 Test Your Understanding
 
-1. Load up `ex2.html` and modify the HTML form to include one new field 
-2. Add validation in ex2.js to ensure that the added field entered has at least  between 6 and 25 characters in length - and some of the characters are numbers.
+- Load up `guess.html` and `guess.js`
+
+- Write the `init` function to set up an event listener on the form. The event listener should pass the value of the input element to the `check` function.
+
+- Write the `check` function to accept a value from the event listener and check it against the `targetNumber`. 
+
+  - If the values match, call the `showWin` function
+  - If the values do not match, call the `showError` function. 
+  - If the values do not match, and the player has made more than five guesses, call the `showLoss` function. 
+  
+- Write the `showWin` function to  show a message on the console telling the player they win.
+
+- Write the `showError` function to show a message on the console telling the player their guess is incorrect.
+
+- Write the `showLoss` function to show a message on the console telling the player they lose.
 
 
 ## 3 ESLint Code Checking
@@ -75,29 +78,8 @@ that we will use a 2 space tab for indenting, we will use single quotes for stri
 To enable ESLint you need to copy configuration file .eslintrc to the workspace  ~/workspace directory. 
 You can configure eslint, look at [configuring](http://eslint.org/docs/user-guide/configuring).
 
-Load up `js/ex2.js` in C9 and run it to prove the code is fully functional. Make sure you understand how it works.
-
-1. In this exercise, you will modify existing code for a simple note taking app. You will not add/remove functionality per se, but instead organize the code into a more proper module design and make it more flexible/reusable.
-
-2. Using what you learned about closure and the module pattern, modify your previous code to wrap all the functionality up into a simple object (call it "NotesManager" or something appropriate), with a simple API, consisting of:
-  - an `init()` method, which you will call from the outside when jQuery's `document.ready` event is fired, and pass in the data from the "database".
-  - a public method to add in notes "in bulk" after retrieval from the "database". hint: this can/should be called **before** you run the "init" method.
-
-3. Make sure you have a "private" storage of the `notes` data list inside your module. Why is it a good idea to keep the data "private" inside the module?
-
-4. What do you notice about the structure of this code as it relates to the DOM access and the usage of jQuery? Would it make sense to "generalize" this code so that the module didn't have hardcoded into it the various DOM elements it would operate on? Explore how you would modify the code in this fashion. What are the benefits and tradeoffs?
-
-
 Note that many of the highlighted issues are about things like indentation, and consistency of style, as well as syntax. That is because linters take readable code very seriously, 
 and so should you! You should aim to have no ESLint warnings when you write your JavaScript or other programming code.
-
-
-### TODO 3 Test your understanding
-Once you have corrected for any ESLint errors found by the code linter (`js/ex2.js`), do the following.
-
-1. Locate all the ESLint errors and warnings and understand what they mean
-2. Correct the app to eliminate all the errors (make sure it still runs correctly!)
-3. Read up on the most common ESLint errors
 
 ## 4 Strict Mode
 
@@ -111,27 +93,11 @@ To enable strict mode you simply add a line of code.
 
 This can be added to the top of your script if you want it to apply to everything, alternatively it can be implemented only within certain blocks of code by adding it there instead.
 
-### 4.1 Activity
-Add this line to the top of your `ex2.js` script. Notice how you now get a number of additional errors flagged in your code!
-
-Amongst other things, the global objects console and document are not recognised. We need to indicate that these objects have already been defined 
-but also that they must not be overwritten (false). 
-To do this we need to identify these global objects in the `.eslintrc` file. Locate this in the `06 JavaScript Tools` folder and add the following:
-```
-"globals": {
-    "console": false,
-    "document": false
-}
-```
-
-You should now see that the errors relating to these objects not being declared have disappeared.
-
-### TODO 4 Test Your Understanding
 
 With strict mode enabled your program will throw errors which can be seen in the browser console.
 
-1. Identify any errors flagged up in the editor
-2. Attempt to fix these errors so your program runs.
+- Identify any errors flagged up in the editor
+- Attempt to fix these errors so your program runs.
 
 ## 5 Basic Debugging
 
@@ -147,30 +113,21 @@ If you find a bug has appeared in your code do the following to help track it do
 5. On the information tab on the right hand side you will see details about the call stack and currently scoped variables to help you pinpoint the state of your program
 6. Use the “Step over / into / out of” buttons to execute your JS line by line and keep an eye on the stack and scope to catch anything unexpected
 
-### 5.1 Task
+### 5.1 Debugger
 
 Lets get familiar with the debugger:
 
-1. Click on the Sources tab and open the notes.js file
-2. Click in the margin to add a breakpoint to the first line of the addItem() function.
-3. Refresh the browser, type in a new item and click the button. The execution will pause at the breakpoint without running line 5.
-4. Click on the Step into next function call button (down arrow with dot). This will run line 5 and move execution to line 6. Click this button to execute the code line by line.
+1. Click on the Sources tab and open the any js file
+2. Click in the margin to add a breakpoint.
+3. Refresh the browser, execution will pause at the breakpoint.
+4. Click on the Step into next function call button (down arrow with dot). This will run the line and move execution to next line. Click this button to execute the code line by line.
 5. Observe the variables changing in the right-hand panel.
 
-### TODO 5 Test Your Understanding
+### TODO 3 Test Your Understanding
 
-Use the debugger to help fix a problem with our program:
+Use the debugger to help fix a problem with your program:
 
-It is currently possible to add duplicate items. Instead of adding duplicated the quantity should increase by one.
-
-1. In this exercise, you will revisit your work from exercise 2 (the note taking app). You will need to copy in your fixed code from "ex2.js" (or "ex2-fixed.js") into the "ex3.js" file, as your starting point.
-
-2. Using what you learned about `prototype` to construct an object instance, modify your previous code to not use module/encapsulation pattern, but instead create a `this` based object. Your public API should stay the same from exercise 2 (although everything will be public now). The main difference will be that you have a constructor function called "NotesManager" (or whatever), and then you will need to create an instance of that object, and can call it something useful, like "myNotes".
-
-3. Pay particular attention to your event handlers and what we learned about how `this` gets reassigned. What have we learned about how to fix that?
-
-4. Because a `this` based object does not have "private" (encapsulated) data, your data will be publicly available on the instance, as well as all your helper methods. How does this change the maintainability and robustness of your code and implementation?
-
-5. What benefits do you see to structuring your code this (`prototype`-based) way? What are the tradeoffs?
-
+- Modify the `showWin` function to remove the form and any error message, and show a message telling the player they win.
+- Modify the `showError` function to show a message telling the player their guess is incorrect.
+- Modify the `showLoss` function to remove the form and show a message telling the player they lose.
 
