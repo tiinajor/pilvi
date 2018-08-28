@@ -46,6 +46,10 @@ manager.gui = (function () {
         // ja lopulta kutsut manager.data.add -funktiota, jolle annat parametrina
         // henkilön
 
+        var personName = document.getElementById('name').value;
+        var personAddress = document.getElementById('address').value;
+        var person = new manager.domain.Person(personName, personAddress);
+        manager.data.add(person);
     }
 
     return {
@@ -60,13 +64,25 @@ manager.data = (function (updateHook) {
     // toteuta tähän funktio addPerson, joka saa parametrina Person-olion.
     // Metodissa addPerson Person-olio lisätään persons-muuttujaan, jonka
     // jälkeen kutsutaan funktiota updateHook
+    function addPerson(person) {
+        persons.push(person);
+        updateHook();
+      }
 
 
     // toteuta tähän funktio list, joka palauttaa persons-muuttujan, eli listan
+    function list() {
+        return persons;
+      }
 
 
     // palauta tässä funktiot addPerson siten, että sen julkinen nimi on add, ja
     // list siten, että sen julkinen nimi on list
+   
+      return {
+        add: addPerson,
+        list
+    };
 
 
 })(manager.gui.update);

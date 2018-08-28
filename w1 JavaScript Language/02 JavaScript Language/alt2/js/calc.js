@@ -10,6 +10,14 @@ function plus() {
     setResult(getNumber("firstValue") + getNumber("secondValue"));
 }
 
+function minus() {
+    setResult(getNumber("firstValue") - getNumber("secondValue"));
+}
+
 function mult() {
     setResult(getNumber("firstValue") * getNumber("secondValue"));
+}
+
+function div() {
+    setResult(getNumber("firstValue") / getNumber("secondValue"));
 }
